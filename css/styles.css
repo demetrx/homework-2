@@ -1,0 +1,141 @@
+/* основной цвет теста #212121; */
+
+/* вторичный цвет текста #757575*/
+
+/* цвет акцента #2196F3 */
+
+/* цвет текста белый #ffffff */
+
+/* цвет фона основной #2F303A */
+/* вторичный цвет фона #F5F4FA */
+:root {
+    --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --accent-color: #2196F3;
+    --additional-colour: #ffffff;
+    --background-color: #2F303A;
+    --secondary-background-colour: #F5F4FA;
+
+}
+body {
+    color: var(--primary-text-color);
+    background-color: var(--additional-colour);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-part {
+    color: var(--accent-color);
+}
+.logo.upper{
+    color: inherit;
+    
+}
+.logo.down{
+    color: var(--additional-colour);
+}   
+
+nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        
+}
+
+a {
+ text-decoration: none;
+}
+.hero, address {
+    color: var(--additional-colour);
+}
+
+.hero, footer {
+    background-color: var(--background-color);
+}
+.hero {
+    letter-spacing: 0.06em;
+}
+.our-team {
+    background-color: var(--secondary-background-colour);
+}
+
+.hero-link, .site-nav a{
+    color: inherit;
+}
+
+.auth-nav a, footer a{
+    color: var(--paragraph-text-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.site-nav a:hover, 
+.auth-nav a:hover,
+footer a:hover,
+.site-nav a:focus, 
+.auth-nav a:focus,
+footer a:focus{
+    color: var(--accent-color);
+}
+p {
+  color: var(--paragraph-text-color);  
+}
+
+/* buttons */
+.button {
+    color: var(--secondary-background-colour);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.advantages h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.our-team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.our-team p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+address

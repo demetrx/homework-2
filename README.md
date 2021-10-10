@@ -1,2 +1,2 @@
-# homework-2
- Belousov Dmytro HW-2
+# homework-1
+Dmitriy Belousov. Homework-1
