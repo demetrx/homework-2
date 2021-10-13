@@ -138,4 +138,36 @@ h2 {
     font-size: 16px;
     line-height: 1.19;
 }
-address
+address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.filter li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: var(--secondary-background-colour);
+}
+.filter li:hover,
+.filter li:focus {
+    color: var(--additional-colour);
+    background-color: var(--accent-color);
+}
+.projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
