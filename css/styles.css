@@ -70,7 +70,7 @@ a {
     color: inherit;
 }
 
-.auth-nav{
+.auth-nav a{
     color: var(--paragraph-text-color);
 }
 
